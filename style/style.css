@@ -1,0 +1,106 @@
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(223, 223, 211,6);
+}
+.container{
+    width: 1070px;
+    margin:0 auto;
+}
+.btn1{
+  padding: 10px 20px; 
+  margin: 10px 20px;
+}
+
+.header{
+    background:rgba(255, 113, 67, 0.27);; 
+    padding: 38px 0 48px;
+}
+
+.headerflex,.footerflex,.about{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;  
+}
+
+.navli{
+    display: inline-block;
+    margin-left: 49px;
+}
+
+.navli:not(:first-of-type){
+    margin-left: 49px;
+}
+
+.navlink{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871; 
+    text-decoration: none;  
+}
+
+.navlink:hover{
+    color: black;
+    transition: 300ms;
+}
+.button{
+    width: 212px;
+    height: 60px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button_orange{
+    background: #FF7143;
+}
+
+.button_orange:hover{
+    background: #e76f47;
+    transition: 500ms;
+}
+
+.about{
+    margin: 104px auto 85px;
+}
+
+.abouttitle{
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B; 
+    max-width: 467px;  
+    margin-bottom: 30px;
+}
+
+.abouttext{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871; 
+    max-width: 464px;
+    margin-bottom: 50px;
+}
+
+.buttonviolet{
+    background: #5454D4;
+}
+
+.butoontransparent{
+   background: none; 
+   color:#5454D4 ;
+   border: 1px solid #5454D4;
+   margin-left: 35px;
+}
+
+.footer{
+    padding: 53px;
+    background:rgba(255, 113, 67, 0.27);; 
+}
